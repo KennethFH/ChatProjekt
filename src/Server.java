@@ -5,7 +5,7 @@ import java.net.Socket;
 
 public class Server {
 
-    private void start(){
+    public void start(){
         ServerSocket socket;
         Socket client;
         try {
